@@ -1,8 +1,8 @@
 fun main(args: Array<String>) {
-    val result = Solution().parseString("VII")
+    val result = Solution().romanToInt("VII")
     println(result)
-    println(Solution().parseString("III"))
-    println(Solution().parseString("XIV"))
-    println(Solution().parseString("LVIII"))
-    println(Solution().parseString("MCMXCIV"))
+    println(Solution().romanToInt("III"))
+    println(Solution().romanToInt("XIV"))
+    println(Solution().romanToInt("LVIII"))
+    println(Solution().romanToInt("MCMXCIV"))
 }
